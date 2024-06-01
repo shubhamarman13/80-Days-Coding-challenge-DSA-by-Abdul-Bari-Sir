@@ -10,4 +10,5 @@ int main()
     {
         cout<<x<<endl;
     }
+cout<<*Arr+2;  // accesing the element by the pointer as new technique 
 }
