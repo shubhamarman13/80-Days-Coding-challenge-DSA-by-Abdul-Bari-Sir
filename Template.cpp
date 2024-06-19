@@ -9,13 +9,13 @@ class Rectangle
     T Area();
     T perimeter();
 };
-// template <class T>
+
 
 template <class T>
 Rectangle<T>::Rectangle(T l, T b)
 {
     length = l;
-    breath = b;  // Corrected spelling
+    breath = b;
 }
 
 template <class T>
@@ -31,8 +31,11 @@ T Rectangle<T>:: Area()
 int main()
 {
     Rectangle <int> obj(10,20);
+    Rectangle <float> obj1(10.2,20.3);
     cout<<obj.Area()<<endl;
     cout<<obj.perimeter()<<endl;
+    cout<<obj1.Area()<<endl;
+    cout<<obj1.perimeter()<<endl;
     return 0;
 
 }
