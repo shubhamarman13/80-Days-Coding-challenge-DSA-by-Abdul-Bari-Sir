@@ -1,1 +1,1 @@
-********Before swap******** 
+    r1.lenght=10;

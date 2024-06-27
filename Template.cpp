@@ -10,7 +10,6 @@ class Rectangle
     T perimeter();
 };
 
-
 template <class T>
 Rectangle<T>::Rectangle(T l, T b)
 {
@@ -31,7 +30,7 @@ T Rectangle<T>:: Area()
 int main()
 {
     Rectangle <int> obj(10,20);
-    Rectangle <float> obj1(10.2,20.3);
+    Rectangle <float> obj1(10.2,20);
     cout<<obj.Area()<<endl;
     cout<<obj.perimeter()<<endl;
     cout<<obj1.Area()<<endl;
@@ -39,3 +38,4 @@ int main()
     return 0;
 
 }
+ 

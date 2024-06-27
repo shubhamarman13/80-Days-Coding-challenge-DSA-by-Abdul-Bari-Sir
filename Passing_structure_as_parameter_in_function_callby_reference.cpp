@@ -23,6 +23,6 @@ int main()
     r1.lenght=10;
     r1.breath=20;
     cout<<"Area= "<<Area(r1)<<endl;
-    cout<<r1.lenght;ttt
+    cout<<r1.lenght;
 
 }
