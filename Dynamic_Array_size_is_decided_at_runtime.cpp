@@ -1,3 +1,5 @@
+// in this programm we are asking the user to enter the size of the aray and dynamically we are assigning the to the elements in the array which is being allocated the memeory  dynamiclay 
+
 #include<iostream>
 using namespace std;
 int *Array(int size)
