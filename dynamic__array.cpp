@@ -5,7 +5,7 @@ class array
 public:
 int input()
 {
-    int x;
+    int x; 
     cout<<"Enter the total numebr of array you need "<<endl;
     cin>>x;
     return x;

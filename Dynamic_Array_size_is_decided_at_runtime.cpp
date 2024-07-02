@@ -19,13 +19,13 @@ int main()
 int *arr , size;
 cout<<"Enter the size that you want in the dynamic Array"<<endl;
 cin>>size; 
-arr=Array(size);
+arr=Array(size);  
 cout<<endl<<"****************************"<<endl;
 for (int i = 0; i < size; i++)
 {
     cout<<arr[i]<<endl;
 }
-delete []arr;
+delete []arr; // this line is for freeing the sapce which we have ocupied in the heap 
 
 
 }
