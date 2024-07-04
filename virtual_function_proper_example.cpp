@@ -37,6 +37,7 @@ int main()
 {
    
    sound *obj;
+   
    dog obj2;
    obj=&obj2;
    obj->speak();
