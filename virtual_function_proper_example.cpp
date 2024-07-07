@@ -3,11 +3,11 @@ using namespace std;
 class sound 
 {
     public:
-    virtual void speak()
-    {
-        cout<<"I am base class "<<endl;
+    virtual void speak();
+    // {
+    //     cout<<"I am base class "<<endl;
 
-    }
+    // }
 };
 class dog: public sound
 {
