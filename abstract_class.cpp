@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
-//  In this we are creating a abstract class in which we are going to create the pure virtual funtion and there are two classes a base class and derived class and in the base  class we are goiong to create the pure virtual function and in the derived class we are  going to override the pure virtual function and we can not create the object of base class as it is abstract class and the rule  is that pure virtual function must be override in the derived class other wise both the (derived and the base ) will be consider as abstract class and we cam not crate the object of any  of the class that it :)
+//  In this we are creating a abstract class in which
+// we are going to create the pure virtual funtion and there are two classes a base class and 
+ //derived class and in the base  class we are goiong to create the pure virtual function andin 
+ //the derived class we are  going to override the pure virtual function and we can not create 
+ //the object of base class as it is abstract class and the rule  is that pure virtual function 
+ //must be override in the derived class other wise both the (derived and the base ) will be 
+// consider as abstract class and we cam not crate the object of any  of the class that it :)
+
 class sound 
 {
     public:
